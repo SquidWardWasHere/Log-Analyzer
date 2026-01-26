@@ -1,0 +1,20 @@
+settings:
+  output_path: "/output/log_raporu.csv"
+
+files:
+  - "/logs/auth.log"
+  - "/logs/syslog"
+  - "/logs/access.log"
+
+rules:
+  - name: "SSH Hatalı Giriş"
+    keyword: "Failed password"
+    level: "CRITICAL"
+  
+  - name: "Sudo Yetki Hatası"
+    keyword: "authentication failure"
+    level: "HIGH"
+
+  - name: "Genel Hata"
+    keyword: "error"
+    level: "MEDIUM"

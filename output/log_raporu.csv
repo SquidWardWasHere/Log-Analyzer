@@ -1,0 +1,7 @@
+Zaman Damgasi,Seviye,Kaynak,Mesaj
+2026-01-25 21:59:31,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 26 12:00:01 server sshd[1234]: Failed password for root from 192.168.1.1 port 22 ssh2
+2026-01-25 21:59:31,HIGH,/logs/auth.log,[Sudo Yetki Hatası] tespit edildi: Jan 26 12:05:22 server sshd[1234]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.5
+2026-01-25 21:59:31,MEDIUM,/logs/auth.log,[Genel Hata] tespit edildi: Jan 26 12:15:00 server app[555]: critical error in database connection
+2026-01-25 21:59:31,CRITICAL,/logs/access.log,[SSH Hatalı Giriş] tespit edildi: Jan 26 12:00:01 server sshd[1234]: Failed password for root from 192.168.1.1 port 22 ssh2
+2026-01-25 21:59:31,HIGH,/logs/access.log,[Sudo Yetki Hatası] tespit edildi: Jan 26 12:05:22 server sshd[1234]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.5
+2026-01-25 21:59:31,MEDIUM,/logs/access.log,[Genel Hata] tespit edildi: Jan 26 12:15:00 server app[555]: critical error in database connection
