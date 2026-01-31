@@ -31,12 +31,12 @@ func main() {
 	for {
 		fmt.Println("\033[H\033[2J")
 		fmt.Println("=====================================")
-		fmt.Println("  LOG ANALİZ VE UYARI SİSTEMİ (CLI)  ")
+		fmt.Println("     LOG ANALİZ VE UYARI SİSTEMİ     ")
 		fmt.Println("=====================================")
 		fmt.Println("1. Dosyaları Tara ve Raporla")
 		fmt.Println("2. Canlı İzleme Modu")
 		fmt.Println("3. Çıkış ")
-		fmt.Println("\nŞeçminiz: ")
+		fmt.Println("\nŞeçiminiz: ")
 		input, _ := reader.ReadString('\n')
 		input = strings.TrimSpace(input)
 		switch input {

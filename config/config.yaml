@@ -5,6 +5,12 @@ files:
   - "/logs/auth.log"
   - "/logs/syslog"
   - "/logs/access.log"
+  - "/logs/ufw.log"
+  - "/logs/kern.log"
+  - "/logs/daemon.log"
+  - "/logs/dpkg.log"
+  - "/logs/boot.log"
+  - "/logs/apache_error.log"
 
 rules:
   - name: "SSH Hatalı Giriş"

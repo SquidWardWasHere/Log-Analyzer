@@ -1,0 +1,24 @@
+Zaman Damgasi,Seviye,Kaynak,Mesaj
+2026-01-28 23:43:08,HIGH,/logs/auth.log,[Sudo Yetki Hatası] tespit edildi: Jan 29 09:16:15 ubuntu-server sudo: pam_unix(sudo:auth): authentication failure; logname=hasan uid=1000 euid=0 tty=/dev/pts/0 ruser=hasan rhost=  user=hasan
+2026-01-28 23:43:08,HIGH,/logs/auth.log,[Sudo Yetki Hatası] tespit edildi: Jan 29 10:45:03 ubuntu-server sshd[4400]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.22.33.44
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:45:05 ubuntu-server sshd[4400]: Failed password for invalid user support from 185.22.33.44 port 44810 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:45:10 ubuntu-server sshd[4402]: Failed password for root from 185.22.33.44 port 44822 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:45:12 ubuntu-server sshd[4402]: Failed password for root from 185.22.33.44 port 44822 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:45:15 ubuntu-server sshd[4402]: Failed password for root from 185.22.33.44 port 44822 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:45:18 ubuntu-server sshd[4402]: Failed password for root from 185.22.33.44 port 44822 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:46:01 ubuntu-server sshd[4405]: Failed password for invalid user admin from 185.22.33.44 port 44900 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:46:05 ubuntu-server sshd[4408]: Failed password for invalid user test from 185.22.33.44 port 44905 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 10:46:10 ubuntu-server sshd[4410]: message repeated 5 times: [ Failed password for root from 185.22.33.44 port 44822 ssh2]
+2026-01-28 23:43:08,HIGH,/logs/auth.log,[Sudo Yetki Hatası] tespit edildi: Jan 29 10:47:00 ubuntu-server sshd[4410]: Disconnecting: Too many authentication failures for root [preauth]
+2026-01-28 23:43:08,CRITICAL,/logs/auth.log,[SSH Hatalı Giriş] tespit edildi: Jan 29 23:20:00 server sshd[9999]: Failed password for root from 66.77.88.99 port 22 ssh2
+2026-01-28 23:43:08,CRITICAL,/logs/access.log,[SSH Hatalı Giriş] tespit edildi: Jan 26 12:00:01 server sshd[1234]: Failed password for root from 192.168.1.1 port 22 ssh2
+2026-01-28 23:43:08,HIGH,/logs/access.log,[Sudo Yetki Hatası] tespit edildi: Jan 26 12:05:22 server sshd[1234]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.0.5
+2026-01-28 23:43:08,MEDIUM,/logs/access.log,[Genel Hata] tespit edildi: Jan 26 12:15:00 server app[555]: critical error in database connection
+2026-01-28 23:43:08,MEDIUM,/logs/kern.log,"[Genel Hata] tespit edildi: Jan 29 14:15:22 server kernel: [150.002] blk_update_request: I/O error, dev sda, sector 2048 op 0x0:(READ) flags 0x0"
+2026-01-28 23:43:08,MEDIUM,/logs/daemon.log,[Genel Hata] tespit edildi: Jan 29 15:05:00 server NetworkManager[888]: <error> [1611234567.1234] platform-linux: do-change-link[2]: failure changing link: failure 19 (No such device)
+2026-01-28 23:43:08,MEDIUM,/logs/daemon.log,"[Genel Hata] tespit edildi: Jan 29 15:20:00 server dockerd[555]: level=error msg=""Handler for POST /v1.40/containers/create returned error: No such image: my-image:latest"""
+2026-01-28 23:43:08,MEDIUM,/logs/dpkg.log,[Genel Hata] tespit edildi: 2026-01-29 16:00:01 error processing package python3-pip (--configure): subprocess installed post-installation script returned error exit status 1
+2026-01-28 23:43:08,MEDIUM,/logs/dpkg.log,[Genel Hata] tespit edildi: Errors were encountered while processing: python3-pip
+2026-01-28 23:43:08,MEDIUM,/logs/apache_error.log,[Genel Hata] tespit edildi: [Wed Jan 29 17:00:00 2026] [core:error] [pid 1234] [client 192.168.1.50] AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error.
+2026-01-28 23:43:08,MEDIUM,/logs/apache_error.log,[Genel Hata] tespit edildi: [Wed Jan 29 17:05:00 2026] [php:error] [pid 1234] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/index.php:10
+2026-01-28 23:43:08,MEDIUM,/logs/apache_error.log,[Genel Hata] tespit edildi: [Wed Jan 29 17:10:00 2026] [authz_core:error] [pid 5678] [client 10.0.0.5] AH01630: client denied by server configuration: /var/www/html/.env
